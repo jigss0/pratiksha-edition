@@ -23,7 +23,7 @@ export const siteConfig = {
   },
 
   /** Set true to bypass the countdown gate while developing/previewing. */
-  devSkipCountdown: false,
+  devSkipCountdown: true,
 
   media: {
     basePath: '/media/',
