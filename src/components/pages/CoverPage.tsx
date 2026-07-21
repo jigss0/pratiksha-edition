@@ -49,9 +49,11 @@ export function CoverPage({ onNext }: CoverPageProps) {
     />
   </div>
 
-  <h1 className="gold-shimmer bg-clip-text font-display text-4xl font-extrabold leading-tight text-transparent drop-shadow-sm sm:text-5xl">
+              {/*
+                <h1 className="gold-shimmer bg-clip-text font-display text-4xl font-extrabold leading-tight text-transparent drop-shadow-sm sm:text-5xl">
     {cover.title}
-  </h1>
+  </h1> 
+  */}
 
   <p className="mt-4 font-hand text-2xl text-rose-light">
     {cover.subtitle}
