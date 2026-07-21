@@ -41,11 +41,22 @@ export function CoverPage({ onNext }: CoverPageProps) {
             </div>
 
             <div className="text-center">
-              <h1 className="gold-shimmer bg-clip-text font-display text-4xl font-extrabold leading-tight text-transparent drop-shadow-sm sm:text-5xl">
-                {cover.title}
-              </h1>
-              <p className="mt-4 font-hand text-2xl text-rose-light">{cover.subtitle}</p>
-            </div>
+  <div className="mx-auto mb-6 w-full max-w-[320px] overflow-hidden rounded-sm border-2 border-gold/60 aspect-video">
+    <PhotoFrame
+      file="hero.jpg"
+      alt="Cover portrait"
+      className="h-full w-full object-contain"
+    />
+  </div>
+
+  <h1 className="gold-shimmer bg-clip-text font-display text-4xl font-extrabold leading-tight text-transparent drop-shadow-sm sm:text-5xl">
+    {cover.title}
+  </h1>
+
+  <p className="mt-4 font-hand text-2xl text-rose-light">
+    {cover.subtitle}
+  </p>
+</div>
 
             <p className="text-center font-type text-[10px] uppercase tracking-[0.3em] text-paper/70">
               {cover.issueLine}
