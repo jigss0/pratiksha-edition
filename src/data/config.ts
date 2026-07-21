@@ -23,7 +23,7 @@ export const siteConfig = {
   },
 
   /** Set true to bypass the countdown gate while developing/previewing. */
-  devSkipCountdown: true,
+  devSkipCountdown: false,
 
   media: {
     basePath: '/Pratiksha-edition/media/',
