@@ -26,7 +26,7 @@ export const siteConfig = {
   devSkipCountdown: true,
 
   media: {
-    basePath: '/media/',
+    basePath: '/Pratiksha-edition/media/',
     video: 'birthday-video.mp4',
     music: 'birthday-song.mp3',
     // Placeholder photo manifest — supports 8 to 15 images.
